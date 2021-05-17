@@ -1,0 +1,36 @@
+body {
+  background-image: url(https://im0-tub-ru.yandex.net/i?id=8a32352f31d8b0805b18f9e08a669c5b&n=13&exp=1);
+  background-size: 100%;
+  background-position: top;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  color: white;
+}
+
+input {
+  text-align: center;
+}
+
+button {
+  width: 100px;
+}
+
+.centered {
+  justify-content: center;
+  width: 750px;
+}
+
+.labeltext {
+  color: white;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 250%;
+  font-weight: 600;
+}

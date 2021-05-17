@@ -1,0 +1,67 @@
+{
+    "data": [
+        {
+    "id": 1,
+    "name": "Шрек",
+    "sex": "Мужской",
+    "race": "Огр",
+    "image": "https://avatars.mds.yandex.net/get-zen_doc/1532998/pub_5e6908a3adf1642a760e073c_5e690a3cadc342068001a981/scale_1200"
+},
+{
+    "id": 2,
+    "name": "Фиона",
+    "sex": "Женский",
+    "race": "Человек",
+    "image": "https://kartinkinaden.ru/uploads/posts/2021-01/1611137592_26-p-fon-iz-shreka-39.jpg"
+},
+{
+    "id": 3,
+    "name": "Осёл",
+    "sex": "Мужской",
+    "race": "Животное",
+    "image": "https://im0-tub-ru.yandex.net/i?id=dc46fd111cf0c7e1b928e754dbcfd2e5&n=13&exp=1"
+},
+{
+    "id": 4,
+    "name": "Кот в сапогах",
+    "sex": "Мужской",
+    "race": "Животное",
+    "image": "https://csn-tv.ru/storage/uploads/originals/ihqRrwAxJPlUCxiIiq1xAyk3q8b9HpIqhSA5EMEi.jpeg"
+},
+{
+    "id": 5,
+    "name": "Принц Чарминг",
+    "sex": "Мужской",
+    "race": "Человек",
+    "image": "https://im0-tub-ru.yandex.net/i?id=d2d9fbb162796f2714a61255cd475f80&n=13&exp=1"
+},
+{
+    "id": 6,
+    "name": "Дракониха",
+    "sex": "Женский",
+    "race": "Дракон",
+    "image": "https://im0-tub-ru.yandex.net/i?id=32970d59b6c1ed4284efe86377efd5c6&n=13&exp=1"
+},
+{
+    "id": 7,
+    "name": "Киса Мягколапка",
+    "sex": "Женский",
+    "race": "Кот",
+    "image": "https://yandex-images.clstorage.net/9YlO9h332/e21b61xavm/i6h7BsNsYt8UYBySz4DTSAJrrqA6hNdCGkNyltlXgLYhu3v4G89PYuzfIKo_r7mVHZZ2BGCsSc3iZKL6KJq_4dupZVTXYz-WBDYVzpC76XFtR5SbR6SvYjAHKpuMAZ35MPcUlQKfLkuy0QC8DMrDtm_1cXc1pVbesErq9guo3uCA4B422XoHyS8kAYDxs-xxRGijoEOkkmAwFC-npDySuSToALJrkT9ntsoMnQX34a1H3l1cFYx1waFC6_kfgvzilfcZA8BKGeg4GACl-5XZdVVkiJJap4VgDjg7npw2oJIg8wi7cLkYdrzWNYw73-6bXPdfdR-YeeqNV-vqMa7F1b7RLB_ZSD_CIj0ysemQ52BfVpibb6OFUQQwIoWYDLOgKc4cnXOyG1WH9C-bGfjAmH_Of3EBg0jdnWLK3zyD1smpzgE332AJzxg_IqPGpfl5TlCenHKOvWQXDxueiz6WngnVPJtSozRXmfUophLP-pJZwnJVFL5t2p9Ewd4yu9bJlM8ZA9diBM4oOCGwzZ7wX2pEiqV7hKpFJwo-ga4rpoYK1gOjcJ05R5v3KKMK7MaEe8pxUwKrReqvU8jvEpnjxrPsHyvxYSLhOxoUis-K8mFdQL6sQKGkXCcVH5-CLa-tLvoxmUWYLWCd0Ra8CtnCpHnGc0Q3n0XHuE_p4Qaf1euL_Bw97n01yw8pAJr2lPl1fEmmglSIn0E8EBujojK_hzfAOqhAgTV-i-IouAzkwL5gzV1WFZRa_INMwuwCocb6t9cjBvpqGfsyDDW_6IvPZGZpmJBQmIt-Ejots6A8op445CeLU48DSYfiDL4SzfKgR_Z1XSONZMudRtD9Abzr5rf0PyDPbyvbByoXgdSv9XJ_cr2tWrelYSQxIKOjEKmGCOYqoVK8AFyt1guvK8zYgGf8VXs_tn7MtFTIwRei8Mm-7QQ_5HYJyRg9M7DDgMJ7aGeimlK-o20MGiWYmiY"
+},
+{
+    "id": 8,
+    "name": "Лягушка",
+    "sex": "Женский",
+    "race": "Лягушка",
+    "image": "https://im0-tub-ru.yandex.net/i?id=06a39e7e26712579e512fa002b75a070&n=13&exp=1"
+},
+{
+    "id": 9,
+    "name": "Спящая Красавица",
+    "sex": "Женский",
+    "race": "Человек",
+    "image": "https://im0-tub-ru.yandex.net/i?id=81d34407300011af59914b6e76b9d72a&n=13&exp=1"
+}
+    ]
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>ShrekAPI</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+<div><h1>Персонажи Шрека</h1></div>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div  class="centered">
+        <div class="mb-3">
+          <ul class=" nav justify-content-center nav-pills centered">
+            <li class="nav-item">
+              <a class="nav-link active" href="#" onclick="GetM(1)" id="GetP">GET (поиск)</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="GetM(2)" id="PostP">POST (добавление)</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="GetM(3)" id="PutP">PUT (изменение)</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="GetM(4)" id="DelP">DELETE (удаление)</a>
+            </li>
+          </ul>
+        </div>
+
+        <div id="formGet">
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Введите id" id="idGET" >
+          </div>
+          <div class="form-floating mb-3" style="text-align: center;">
+            <button class="btn btn-warning" onclick="getz()">Поиск</button>
+          </div>
+        </div>
+
+
+        <div id="formPost" style="display: none;">
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Введите id" id="idPOST" >
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Имя персонажа" id="namePOST" >
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Введите пол персонажа" id="sexPOST" >
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Введите расу персонажа" id="racePOST" >
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="URL изображения" id="imagePOST" >
+          </div>
+          <div class="form-floating mb-3" style="text-align: center;">
+            <button class="btn btn-warning" onclick="postajax()">Добавить</button>
+          </div>
+        </div>
+
+        <div id="formPut" style="display: none;">
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Введите id" id="idPUT" >
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Имя персонажа" id="namePUT" >
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Введите пол персонажа" id="sexPUT" >
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Ввелите расу персонажа" id="racePUT" >
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="URL изображения" id="imagePUT" >
+          </div>
+          <div class="form-floating mb-3" style="text-align: center;">
+              <button class="btn btn-warning" onclick= "putajax()" >Изменить</button>
+            </div>
+        </div>
+
+
+        <div id="formDelete" style="display: none;">
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Введите id" id="idDELETE" >
+          </div>
+          <div class="form-floating mb-3" style="text-align: center;">
+            <button class="btn btn-warning" onclick="deleteajax()">Удалить</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm">
+      <div class="card">
+        <img  id="image1" src="https://pbs.twimg.com/media/Ey6ajNMVoAIwD-f.jpg" class="card-img-top">
+        <ul class="list-group list-group-flush">
+          <li id ="name" style=" display: none;" class="card-title"></li>
+          <li id="sex" style=" display: none;" class="list-group-item"></li>
+          <li id="race" style=" display: none;" class="list-group-item"></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="script.js"></script>
+</html>
